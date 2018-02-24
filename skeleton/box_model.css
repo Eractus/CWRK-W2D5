@@ -1,0 +1,27 @@
+div {
+  height: 200px;
+  width: 200px;
+  padding: 50px;
+  border: 5px solid black;
+}
+
+div[id="second-div"] {
+  box-sizing: border-box;
+}
+
+div[id="third-div"].content {
+  height: 10px;
+  flex: auto;
+}
+
+#first-div {
+  background-color: #39cccc;
+}
+
+#second-div {
+  background-color: #ff4136;
+}
+
+p {
+  background-color: #7fdbff;
+}
